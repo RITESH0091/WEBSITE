@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Restaurant</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#reservations">Reservations</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h1>Welcome to The Maharaja Club</h1>
+    <p>We are always here to serve you</p>
+    <a href="#menu" class="cta-button">View Menu</a>
+  </section>
+
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+      <div class="menu-item">
+        <h3>Starter</h3>
+        <ul>
+          <li style="text-align:center;">Paneer tikka</li>
+          <li style="text-align:center;">Aloo tikki</li>
+          <li style="text-align:center;"> Onion pakoda</li>
+          <li style="text-align:center;"> Dahi vada</li>
+          <li style="text-align:center;"> Khaman Dhokla</li>
+        </ul>
+      </div>
+
+      <div class="menu-item">
+        <h3>Main Courses</h3>
+        <ul>
+          <li style="text-align:center;"> Rajma chawal</li>
+          <li style="text-align:center;">Paneer butter masala</li>
+          <li style="text-align:center;">Kadhi chawal</li>
+          <li style="text-align:center;">Masala dosa</li>
+          <li style="text-align:center;">Dal makhani</li>
+        </ul>
+      </div>
+
+      <div class="menu-item">
+        <h3>Desserts</h3>
+        <ul>
+          <li style="text-align:center;">Gulab Jamun</li>
+          <li style="text-align:center;">Gajar Ka Halwa</li>
+          <li style="text-align:center;">Modak</li>
+          <li style="text-align:center;">Kaju ki Barfi</li>
+          <li style="text-align:center;">Shrikhand</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="feature">
+      <img src="icons/discount.png" alt="" />
+      <div class="feature_content">
+        <h3>Discount</h3>
+        Special discount for special occasions
+      </div>
+    </div>
+    <div class="feature">
+      <img src="icons/fresh.png" alt="" />
+      <div class="feature_content">
+        <h3>Fresh Healthy Food</h3>
+        Our bodies need real, fresh food to maintain health.
+      </div>
+    </div>
+    <div class="feature">
+      <img src="icons/delivery.png" alt="" />
+      <div class="feature_content">
+        <h3>Fast Home Delivery</h3>
+        We deliver it hot and yummy.
+      </div>
+    </div>
+  </section>
+
+  <section id="reservations">
+    <h2>Make a Reservation</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" required>
+      <label for="time">Time:</label>
+      <input type="time" id="time" name="time" required>
+      
+      <input type="submit" value="Book Now" class="cta-button" onclick="showB()" id="submit">
+    </form>
+  </section>
+  <section id="contact">
+  <footer>
+    <div class="footer_container container">
+      <div class="footer_logo">
+        <img src="photo/logo.png.png"  width="200" height="200" alt="logo" />
+      </div>
+      <div class="link_lists">
+        <h3>Main Links</h3>
+        <ul>
+          <li>Order Tracking</li>
+          <li>New Order</li>
+          <li>Contact Us</li>
+          <li>News & Blogs</li>
+        </ul>
+      </div>
+      <div class="link_lists">
+        <h3>Support</h3>
+        <ul>
+          <li>About Us</li>
+          <li>Privacy Policy</li>
+          <li>Terms & Conditons</li>
+        </ul>
+      </div>
+      <div class="news_letter">
+        <h3>Support</h3>
+        <input type="email" placeholder="Enter your Email..." />
+        </div>
+      </div>
+    </div>
+  </footer>
+  </section>
+</body>
+</html>
